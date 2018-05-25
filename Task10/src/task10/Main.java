@@ -25,7 +25,7 @@ public class Main {
 
         StringBuilder result = new StringBuilder();
 
-        if(a != 0 && !result.toString().contains("" + a + b + c)) {
+        if(a != 0) {
             result.append(a).append(b).append(c);
             if(!result.toString().contains("" + a + c + b))
                 result.append(" ").append(a).append(c).append(b);
