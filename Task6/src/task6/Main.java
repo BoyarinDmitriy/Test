@@ -17,15 +17,14 @@ public class Main {
         double b = 0;
         double c = 0;
 
+        System.out.println("Enter the length of three segments: ");
         try {
-            System.out.print("The length of the first segment: ");
             a = in.nextDouble();
-
-            System.out.print("The length of the second segment: ");
             b = in.nextDouble();
-
-            System.out.print("The length of the third segment: ");
             c = in.nextDouble();
+
+            if(a < 0 || b < 0 || c < 0)
+                throw new InputMismatchException();
         } catch (InputMismatchException e){
             System.out.println("Incorrect input!");
             System.exit(0);
