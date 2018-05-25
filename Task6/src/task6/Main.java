@@ -23,7 +23,7 @@ public class Main {
             b = in.nextDouble();
             c = in.nextDouble();
 
-            if(a < 0 || b < 0 || c < 0)
+            if(a <= 0 || b <= 0 || c <= 0)
                 throw new InputMismatchException();
         } catch (InputMismatchException e){
             System.out.println("Incorrect input!");
