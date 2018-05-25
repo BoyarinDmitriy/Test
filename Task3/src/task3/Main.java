@@ -21,6 +21,7 @@ public class Main {
 
         System.out.print("Enter the string: ");
         String str = in.nextLine();
+
         System.out.println(isPalindrome(str));
     }
 }
