@@ -32,7 +32,7 @@ public class Main {
         try {
             number = in.nextInt();
         } catch (InputMismatchException e){
-            System.out.println("It is'nt the integer number!");
+            System.out.println("It isn't the integer number!");
             System.exit(0);
         }
 
